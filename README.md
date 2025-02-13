@@ -1,7 +1,8 @@
-# Portfolio Website
-My personal portfolio website built with React and Tailwind CSS.
+# Personal Portfolio
 
-## Technologies Used
+My personal portfolio website showcasing my frontend development skills and projects.
+
+## Built With
 - React.js
 - Tailwind CSS
 - Framer Motion
@@ -9,5 +10,11 @@ My personal portfolio website built with React and Tailwind CSS.
 
 ## Features
 - Responsive Design
-- Smooth Animations
 - Modern UI/UX
+- Smooth Animations
+- Mobile-First Approach
+
+## Contact
+Feel free to reach out:
+- GitHub: [@hicrandn](https://github.com/hicrandn)
+- LinkedIn: [Hicran Apaydın](https://www.linkedin.com/in/hicran-apaydin/)
