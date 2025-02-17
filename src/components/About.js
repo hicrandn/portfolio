@@ -6,15 +6,15 @@ const About = () => {
   return (
     <section id="about" className="bg-gray-100 py-16">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-start gap-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
           {/* Sol taraf - Hi ve Fotoğraf */}
           <motion.div 
-            className="md:w-1/3 flex flex-col items-center"
+            className="md:w-1/3 w-full flex flex-col items-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <div className="flex items-center gap-3 mb-8">
+            <div className="flex items-center justify-center gap-3 mb-8">
               <h1 className="text-5xl font-bold text-gray-800">Hi</h1>
               <motion.div
                 initial={{ rotate: -30, opacity: 0 }}
@@ -28,9 +28,8 @@ const About = () => {
                 <FaRegSmileWink className="text-4xl text-yellow-400" />
               </motion.div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center w-full">
               <div className="relative w-48 h-48">
-                
                 <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-xl group-hover:scale-105 transition duration-300">
                   <img
                     src="/images/hicran.jpeg"
