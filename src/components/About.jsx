@@ -3,8 +3,8 @@ import { FaRegSmileWink, FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'rea
 
 const About = () => {
   return (
-    <section id="about" className="bg-gray-100 py-8 md:py-16">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id="about" className="min-h-screen bg-gray-100 flex items-center py-8 md:py-16">
+      <div className="max-w-6xl mx-auto px-4 w-full">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           {/* Sol taraf - Hi ve Fotoğraf */}
           <motion.div 
