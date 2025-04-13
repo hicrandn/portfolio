@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaRegSmileWink, FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaRegSmileWink, FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaMedium } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -83,6 +83,12 @@ const About = () => {
                      rel="noopener noreferrer"
                      className="text-xl md:text-2xl text-gray-700 hover:text-gray-900 transition-all">
                     <FaTwitter />
+                  </a>
+                  <a href="https://medium.com/@hicran.apaydn"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="text-xl md:text-2xl text-gray-700 hover:text-gray-900 transition-all">
+                    <FaMedium />
                   </a>
                   <a href="mailto:hicran.apaydn@gmail.com"
                      className="text-xl md:text-2xl text-gray-700 hover:text-gray-900 transition-all">
